@@ -25,7 +25,7 @@ public class calculatorProg {
         int output=0;
         String opr = "";
 
-        while (opr != "clear")
+        while (opr != "e")
         {
             System.out.print("Enter the operation want to perform  (add = a / sub = s / multiply = m / divide = d (e to exit) :");
             opr = s.next();
@@ -55,13 +55,6 @@ public class calculatorProg {
 
             System.out.println("Output is :" + output);
         }
-/*
-        System.out.println("Addition of two numbers= " + sum(10, 2));
-        System.out.println("substractions of two numbers= " + sub(30, 20));
-        System.out.println("Multiplication of two numbers= " + mul(4, 3));
-        System.out.println("Division of two numbers= " + div(40, 8));
-
- */
     }
 }
 
